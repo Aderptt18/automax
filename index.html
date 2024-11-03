@@ -3,12 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automax</title>
+    <title>Proyecto Final - Desarrollo de Contenidos Digitales</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>
-        Página web
-    </h1>
-    <iframe src="https://scratch.mit.edu/projects/1085655266/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    <header>
+        <div class="logo-container">
+            <div class="logo"></div>
+            <h1 style="color: white;">Nombre de tu Empresa</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#juego">Videojuego</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <h1>Bienvenidos a Nuestra Empresa Digital</h1>
+            <p>Innovación y creatividad en desarrollo de contenidos digitales</p>
+        </section>
+
+        <section id="nosotros">
+            <h2>Nosotros</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h3>Misión</h3>
+                    <p>[Tu misión aquí]</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Visión</h3>
+                    <p>[Tu visión aquí]</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Objetivos</h3>
+                    <p>[Tus objetivos aquí]</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="grid-container">
+                <!-- Agregar servicios aquí -->
+            </div>
+        </section>
+
+        <section id="productos">
+            <h2>Productos Digitales</h2>
+            <div class="grid-container">
+                <!-- Agregar productos aquí -->
+            </div>
+        </section>
+
+        <section id="juego">
+            <h2>Nuestro Videojuego</h2>
+            <div class="game-container">
+                <!-- Aquí va el iframe o embed del juego -->
+            </div>
+            <div class="game-description">
+                <h3>Cómo Jugar</h3>
+                <p>[Instrucciones del juego aquí]</p>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contáctenos</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Tu Empresa. Todos los derechos reservados.</p>
+        <div class="social-links">
+            <!-- Agregar enlaces a redes sociales aquí -->
+        </div>
+    </footer>
 </body>
 </html>
